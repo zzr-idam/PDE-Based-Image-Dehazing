@@ -1,7 +1,7 @@
-# Image Dehazing: A Deep - Learning - Based Approach
+# Image Dehazing: A PDE-Based Image Dehazing Method
 
 ## 1.        Project Overview
-This GitHub repository hosts an image dehazing project powered by deep - learning techniques.        Our goal is to effectively remove haze from input images, restoring clear and visually appealing results.        The core dehazing logic is encapsulated within the provided codebase, enabling both research experimentation and practical application for dehazing tasks.
+This GitHub repository hosts an image dehazing project powered by deep-learning techniques.        Our goal is to effectively remove haze from input images, restoring clear and visually appealing results.        The core dehazing logic is encapsulated within the provided codebase, enabling both research experimentation and practical application for dehazing tasks.
 
 ## 2.        Related Paper
 The dehazing algorithm implemented in this project is based on the research presented in:
@@ -21,11 +21,11 @@ This project serves as an implementation and extension of the ideas and methodol
 
 ## 4.        Dependencies
 To run this deep-learning-based image dehazing project, the following Python libraries are required:
-- **PyTorch**: Serves as the foundation for building and training the deep - learning models (if applicable) and performing tensor - related operations crucial for the dehazing algorithm.
-- **OpenCV - Python (`opencv - python`)**: Used for image I/O operations (reading hazy images and writing dehazed results) as well as essential image processing tasks during the dehazing pipeline.
+- **PyTorch**: Serves as the foundation for building and training the deep-learning models (if applicable) and performing tensor-related operations crucial for the dehazing algorithm.
+- **OpenCV-Python (`opencv-python`)**: Used for image I/O operations (reading hazy images and writing dehazed results) as well as essential image processing tasks during the dehazing pipeline.
 - **NumPy**: Provides support for efficient numerical computations, which are fundamental for manipulating image data in the form of arrays.
 
-You can install these dependencies using either `pip` or `conda` (recommended for managing deep - learning environments).        For `pip`, use the following commands:
+You can install these dependencies using either `pip` or `conda` (recommended for managing deep-learning environments).        For `pip`, use the following commands:
 ```bash
 pip install torch opencv-python numpy
 ```
@@ -50,6 +50,6 @@ This script will:
 
 
 ## 6.        Notes and Tips
-- **Environment Compatibility**: Ensure that your Python environment (especially the versions of PyTorch, CUDA, and cuDNN if using GPU acceleration) is compatible with the requirements of the deep - learning operations in the project.        In case of GPU-related issues, refer to the official documentation of PyTorch for troubleshooting.
-- **Input Image Requirements**: The input hazy images should be of reasonable size.        Extremely large images may cause memory issues during processing.        You can consider resizing the images beforehand or adjusting the memory - related settings in the code if needed.
-- **Customization**: The `demo.py` script can be further customized.        For example, you can modify the dehazing parameters, adjust the output image quality settings, or integrate additional post - processing steps for better visual results.
+- **Environment Compatibility**: Ensure that your Python environment (especially the versions of PyTorch, CUDA, and cuDNN if using GPU acceleration) is compatible with the requirements of the deep-learning operations in the project.        In case of GPU-related issues, refer to the official documentation of PyTorch for troubleshooting.
+- **Input Image Requirements**: The input hazy images should be of reasonable size.        Extremely large images may cause memory issues during processing.        You can consider resizing the images beforehand or adjusting the memory-related settings in the code if needed.
+- **Customization**: The `demo.py` script can be further customized.        For example, you can modify the dehazing parameters, adjust the output image quality settings, or integrate additional post-processing steps for better visual results.
