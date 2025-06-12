@@ -20,14 +20,14 @@ This project serves as an implementation and extension of the ideas and methodol
 ```
 
 ## 4.        Dependencies
-To run this deep - learning - based image dehazing project, the following Python libraries are required:
+To run this deep-learning-based image dehazing project, the following Python libraries are required:
 - **PyTorch**: Serves as the foundation for building and training the deep - learning models (if applicable) and performing tensor - related operations crucial for the dehazing algorithm.
 - **OpenCV - Python (`opencv - python`)**: Used for image I/O operations (reading hazy images and writing dehazed results) as well as essential image processing tasks during the dehazing pipeline.
 - **NumPy**: Provides support for efficient numerical computations, which are fundamental for manipulating image data in the form of arrays.
 
 You can install these dependencies using either `pip` or `conda` (recommended for managing deep - learning environments).        For `pip`, use the following commands:
 ```bash
-pip install torch opencv - python numpy
+pip install torch opencv-python numpy
 ```
 If you are using `conda`, the commands would be:
 ```bash
@@ -45,11 +45,11 @@ python demo.py
 ```
 This script will:
 1.        Read the hazy images from `dehazing_samples/`.
-2.        Apply the deep - learning - based dehazing algorithm.
+2.        Apply the deep-learning-based dehazing algorithm.
 3.        Output the dehazed images (the output path can be customized within the `demo.py` script).
 
 
 ## 6.        Notes and Tips
-- **Environment Compatibility**: Ensure that your Python environment (especially the versions of PyTorch, CUDA, and cuDNN if using GPU acceleration) is compatible with the requirements of the deep - learning operations in the project.        In case of GPU - related issues, refer to the official documentation of PyTorch for troubleshooting.
+- **Environment Compatibility**: Ensure that your Python environment (especially the versions of PyTorch, CUDA, and cuDNN if using GPU acceleration) is compatible with the requirements of the deep - learning operations in the project.        In case of GPU-related issues, refer to the official documentation of PyTorch for troubleshooting.
 - **Input Image Requirements**: The input hazy images should be of reasonable size.        Extremely large images may cause memory issues during processing.        You can consider resizing the images beforehand or adjusting the memory - related settings in the code if needed.
 - **Customization**: The `demo.py` script can be further customized.        For example, you can modify the dehazing parameters, adjust the output image quality settings, or integrate additional post - processing steps for better visual results.
