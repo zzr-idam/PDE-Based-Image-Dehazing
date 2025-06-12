@@ -16,7 +16,7 @@ This project serves as an implementation and extension of the ideas and methodol
 .
 ├── dehazing_samples/   # Directory to store test hazy images and related samples
 ├── demo.py             # Main script for dehazing execution.        Contains the pipeline from image input to dehazed output.
-└── README.       md           # The document you are currently reading, providing project details and usage instructions.
+└── README.md           # The document you are currently reading, providing project details and usage instructions.
 ```
 
 ## 4.        Dependencies
